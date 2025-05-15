@@ -366,3 +366,213 @@ aside{
 
 /* travail eric*/
 
+
+/* 🔁 Ajouts pour le responsive : */
+/* zozo */
+@media ( largeur maximale :  1024 px ) {
+    . écrire  h1 {
+        rembourrage :  250 px  100 px ;
+    }
+
+    . logo {
+        largeur :  80 px ;
+        gauche :  20 px ;
+    }
+
+    . option {
+        droite :  60 px ;
+    }
+}
+
+@media ( largeur maximale :  768 px ) {
+    . écrire  h1 {
+        rembourrage :  180 px  40 px ;
+    }
+
+    . logo {
+        largeur :  60 px ;
+        gauche :  15 px ;
+    }
+
+    . recherche {
+        droite :  20 px ;
+    }
+
+    . option {
+        droite :  50 px ;
+    }
+}
+
+@media ( largeur maximale :  480 px ) {
+    . écrire  h1 {
+        rembourrage :  120 px  20 px ;
+        taille de police :  1,2 rem ;
+    }
+
+    . logo {
+        largeur :  50 px ;
+        gauche :  10 px ;
+    }
+
+    . recherche {
+        droite :  10 px ;
+    }
+
+    . option {
+        haut : auto;
+        bas :  20 px ;
+        droite :  10 px ;
+        flex-direction : colonne ;
+        aligner-éléments : flex-end;
+    }
+
+    . section de style {
+        taille de police :  0,9 rem ;
+    }
+}
+
+/* charles & sévérin */
+
+@media ( largeur maximale :  1300 px ) {
+  . produits {
+  affichage : grille ;
+  grille-modèle-colonnes :   1 fr ;
+  justifier-contenu : espace-entre ;
+}
+
+. aliments {
+  affichage : grille ;
+  grille-modèle-colonnes :  1 fr  1 fr ;
+}
+
+/* .produits-contenair {
+  marge : 5 % ;
+  marge supérieure : 10 px ;
+  rembourrage : 5 % ;
+} */
+
+. description-alimentaire {
+  marge-haute :  -5 px ;
+  marge gauche :  5 px ;
+  marge inférieure :  0 px ;
+}
+
+. food-descript  h3 {
+  marge :  0 ;
+  rembourrage :  0 ;
+}
+
+. food-descript  h3 {
+  taille de police :  25 px ;
+}
+
+. description-alimentaire  p {
+  taille de police :  20 px ;
+}
+
+. paragraphe {
+  rembourrage inférieur :  25 px ;
+}
+
+. produits-contenair  h2 {
+  taille de police :  15 px ;
+}
+
+. Boire-img {
+  largeur :  500 px ;
+}
+
+. aliments  img {
+  largeur :  370 px ;
+  rembourrage inférieur :  20 px ;
+}
+}
+
+@media ( largeur maximale :  800 px ) {
+
+. xxx {
+  affichage : grille ;
+  grille-modèle-colonnes :  1 fr  1 fr ;
+  largeur :  100 % ;
+}
+
+. produits {
+  affichage : grille ;
+  grille-modèle-colonnes :  1 fr ;
+
+}
+
+. aliments {
+  affichage : grille ;
+  grille-modèle-colonnes :  1 fr  1 fr ;
+  largeur :  100 % ;
+}
+
+. explorer {
+  arrière-plan :  # e6007e ;
+  couleur :  # fafafa ;
+  bordure : aucune ;
+  largeur :  250 px ;
+  hauteur :  50 px ;
+  rayon de la bordure :  5 px ;
+  marge supérieure :  15 px ;
+}
+
+. description-alimentaire {
+  marge-haute :  -5 px ;
+  marge inférieure :  30 px ;
+}
+
+. food-descript  h3 {
+  taille de police :  10 px ;
+}
+
+. description-alimentaire  p {
+  taille de police :  13 px ;
+}
+
+. paragraphe {
+  rembourrage inférieur :  20 px ;
+}
+
+. produits-contenair  h2 {
+  taille de police :  15 px ;
+}
+
+. Boire-img {
+  largeur :  450 px ;
+  remplissage-gauche :  -10 px ;
+}
+
+. aliments  img {
+  largeur :  300 px ;
+}
+}
+
+/* benedicte */
+
+
+@media ( largeur maximale  : 763 px ) {
+    . message { taille de police :  15 px ;}
+
+}
+
+@media ( largeur maximale  :  315 px ) {
+    . message { taille de police :  10 px ;}
+}
+@media ( largeur maximale  :  200 px ) {
+    . message { taille de police :  5 px ;}
+}
+
+/* eric */
+
+@media (max-width: 580px) {
+    .write button {
+        width: 100px;
+        height: 38px;
+    }
+    #email {
+        width: 250px;
+        height: 38px;
+    }
+}
