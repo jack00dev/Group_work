@@ -369,210 +369,208 @@ aside{
 
 /* 🔁 Ajouts pour le responsive : */
 /* zozo */
-@media ( largeur maximale :  1024 px ) {
-    . écrire  h1 {
-        rembourrage :  250 px  100 px ;
+
+@media (max-width: 1024px) {
+    .write h1 {
+        padding: 250px 100px;
     }
 
-    . logo {
-        largeur :  80 px ;
-        gauche :  20 px ;
+    .logo {
+        width: 80px;
+        left: 20px;
     }
 
-    . option {
-        droite :  60 px ;
-    }
-}
-
-@media ( largeur maximale :  768 px ) {
-    . écrire  h1 {
-        rembourrage :  180 px  40 px ;
-    }
-
-    . logo {
-        largeur :  60 px ;
-        gauche :  15 px ;
-    }
-
-    . recherche {
-        droite :  20 px ;
-    }
-
-    . option {
-        droite :  50 px ;
+    .option {
+        right: 60px;
     }
 }
 
-@media ( largeur maximale :  480 px ) {
-    . écrire  h1 {
-        rembourrage :  120 px  20 px ;
-        taille de police :  1,2 rem ;
+@media (max-width: 768px) {
+    .write h1 {
+        padding: 180px 40px;
     }
 
-    . logo {
-        largeur :  50 px ;
-        gauche :  10 px ;
+    .logo {
+        width: 60px;
+        left: 15px;
     }
 
-    . recherche {
-        droite :  10 px ;
+    .search {
+        right: 20px;
     }
 
-    . option {
-        haut : auto;
-        bas :  20 px ;
-        droite :  10 px ;
-        flex-direction : colonne ;
-        aligner-éléments : flex-end;
+    .option {
+        right: 50px;
+    }
+}
+
+@media (max-width: 480px) {
+    .write h1 {
+        padding: 120px 20px;
+        font-size: 1.2rem;
     }
 
-    . section de style {
-        taille de police :  0,9 rem ;
+    .logo {
+        width: 50px;
+        left: 10px;
+    }
+
+    .search {
+        right: 10px;
+    }
+
+    .option {
+        top: auto;
+        bottom: 20px;
+        right: 10px;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .stylesection {
+        font-size: 0.9rem;
     }
 }
 
 /* charles & sévérin */
 
-@media ( largeur maximale :  1300 px ) {
-  . produits {
-  affichage : grille ;
-  grille-modèle-colonnes :   1 fr ;
-  justifier-contenu : espace-entre ;
+@media (max-width: 1300px) {
+  .produits {
+  display: grid;
+  grid-template-columns:  1fr;
+  justify-content: space-between;
 }
 
-. aliments {
-  affichage : grille ;
-  grille-modèle-colonnes :  1 fr  1 fr ;
+.foods {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 /* .produits-contenair {
-  marge : 5 % ;
-  marge supérieure : 10 px ;
-  rembourrage : 5 % ;
+  margin: 5%;
+  margin-top: 10px;
+  padding: 5%;
 } */
 
-. description-alimentaire {
-  marge-haute :  -5 px ;
-  marge gauche :  5 px ;
-  marge inférieure :  0 px ;
+.food-descript{
+  margin-top: -5px;
+  margin-left: 5px;
+  margin-bottom: 0px;
 }
 
-. food-descript  h3 {
-  marge :  0 ;
-  rembourrage :  0 ;
+.food-descript h3 {
+  margin: 0;
+  padding: 0;
 }
 
-. food-descript  h3 {
-  taille de police :  25 px ;
+.food-descript h3 {
+  font-size: 25px;
 }
 
-. description-alimentaire  p {
-  taille de police :  20 px ;
+.food-descript p {
+  font-size: 20px;
 }
 
-. paragraphe {
-  rembourrage inférieur :  25 px ;
+.paragraphe {
+  padding-bottom: 25px;
 }
 
-. produits-contenair  h2 {
-  taille de police :  15 px ;
+.produits-contenair h2 {
+  font-size: 15px;
 }
 
-. Boire-img {
-  largeur :  500 px ;
+.Drink-img {
+  width: 500px;
 }
 
-. aliments  img {
-  largeur :  370 px ;
-  rembourrage inférieur :  20 px ;
+.foods img {
+  width: 370px;
+  padding-bottom: 20px;
 }
 }
 
-@media ( largeur maximale :  800 px ) {
+@media (max-width: 800px) {
 
-. xxx {
-  affichage : grille ;
-  grille-modèle-colonnes :  1 fr  1 fr ;
-  largeur :  100 % ;
+.xxx {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
 }
 
-. produits {
-  affichage : grille ;
-  grille-modèle-colonnes :  1 fr ;
-
+.produits {
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
-. aliments {
-  affichage : grille ;
-  grille-modèle-colonnes :  1 fr  1 fr ;
-  largeur :  100 % ;
+.foods {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
 }
 
-. explorer {
-  arrière-plan :  # e6007e ;
-  couleur :  # fafafa ;
-  bordure : aucune ;
-  largeur :  250 px ;
-  hauteur :  50 px ;
-  rayon de la bordure :  5 px ;
-  marge supérieure :  15 px ;
+.explore {
+  background: #e6007e;
+  color: #fafafa;
+  border: none;
+  width: 250px;
+  height: 50px;
+  border-radius: 5px;
+  margin-top: 15px;
 }
 
-. description-alimentaire {
-  marge-haute :  -5 px ;
-  marge inférieure :  30 px ;
+.food-descript{
+  margin-top: -5px;
+  margin-bottom: 30px;
 }
 
-. food-descript  h3 {
-  taille de police :  10 px ;
+.food-descript h3 {
+  font-size: 10px;
 }
 
-. description-alimentaire  p {
-  taille de police :  13 px ;
+.food-descript p {
+  font-size: 13px;
 }
 
-. paragraphe {
-  rembourrage inférieur :  20 px ;
+.paragraphe {
+  padding-bottom: 20px;
 }
 
-. produits-contenair  h2 {
-  taille de police :  15 px ;
+.produits-contenair h2 {
+  font-size: 15px;
 }
 
-. Boire-img {
-  largeur :  450 px ;
-  remplissage-gauche :  -10 px ;
+.Drink-img {
+  width: 450px;
+  padding-left: -10px;
 }
 
-. aliments  img {
-  largeur :  300 px ;
+.foods img {
+  width: 300px;
 }
 }
 
 /* benedicte */
 
-
-@media ( largeur maximale  : 763 px ) {
-    . message { taille de police :  15 px ;}
-
+@media (max-width :763px) {
+    .message { font-size: 15px;}
 }
 
-@media ( largeur maximale  :  315 px ) {
-    . message { taille de police :  10 px ;}
+@media (max-width : 315px) {
+    .message {font-size: 10px;}
 }
-@media ( largeur maximale  :  200 px ) {
-    . message { taille de police :  5 px ;}
+@media (max-width : 200px) {
+    .message {font-size: 5px;}
 }
 
 /* eric */
 
 @media (max-width: 580px) {
     .write button {
-        width: 100px;
+        width: 90px;
         height: 38px;
     }
     #email {
-        width: 250px;
+        width: 230px;
         height: 38px;
     }
 }
