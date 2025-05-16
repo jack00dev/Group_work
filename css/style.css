@@ -387,6 +387,7 @@ aside{
 
 /* travail eric*/
 
+<<<<<<< HEAD
 /* 🔁 Ajouts pour le responsive : */
 /* zozo */
 
@@ -394,6 +395,25 @@ aside{
     .write h1 {
         padding: 250px 100px;
     }
+=======
+
+/* 🔁 Ajouts pour le responsive : */
+/* zozo */
+
+@media (max-width: 1024px) {
+    .write h1 {
+        padding: 250px 100px;
+    }
+
+    .logo {
+        width: 80px;
+        left: 20px;
+    }
+
+    .option {
+        right: 60px;
+    }
+>>>>>>> 639ead07d6bb6769da88063da8a16bbdc423137b
 }
 
 @media (max-width: 768px) {
@@ -415,7 +435,10 @@ aside{
     }
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 639ead07d6bb6769da88063da8a16bbdc423137b
 @media (max-width: 480px) {
     .write h1 {
         padding: 120px 20px;
@@ -430,6 +453,21 @@ aside{
     .search {
         right: 10px;
     }
+<<<<<<< HEAD
+=======
+
+    .option {
+        top: auto;
+        bottom: 20px;
+        right: 10px;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .stylesection {
+        font-size: 0.9rem;
+    }
+>>>>>>> 639ead07d6bb6769da88063da8a16bbdc423137b
 }
 
 /* charles & sévérin */
@@ -489,7 +527,10 @@ aside{
 }
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 639ead07d6bb6769da88063da8a16bbdc423137b
 @media (max-width: 800px) {
 
 .xxx {
@@ -550,6 +591,7 @@ aside{
 }
 }
 
+<<<<<<< HEAD
 @media (max-width: 490px) {
   .produits {
     margin: auto;
@@ -573,6 +615,8 @@ aside{
   }
 }
 
+=======
+>>>>>>> 639ead07d6bb6769da88063da8a16bbdc423137b
 /* benedicte */
 
 @media (max-width :763px) {
@@ -597,4 +641,8 @@ aside{
         width: 230px;
         height: 38px;
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 639ead07d6bb6769da88063da8a16bbdc423137b
