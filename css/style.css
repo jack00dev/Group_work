@@ -24,6 +24,12 @@ body {
   position: absolute;
 }
 
+.grad {
+  width: 100%;
+  height: 708px;
+  object-fit: cover;
+}
+
 .banner{
   width: 100%;
   height: 100%;
@@ -217,6 +223,21 @@ body {
   padding: 5%;
 }
 
+
+.local{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  align-items: baseline;
+}
+
+
+.local .line {
+  background-color: #1f1f1f;
+  border: 1px solid transparent;
+  padding: 1px;
+} 
+
+
 .food-descript{
   margin-top: -5px;
   margin-left: 15px;
@@ -366,3 +387,214 @@ aside{
 
 /* travail eric*/
 
+/* 🔁 Ajouts pour le responsive : */
+/* zozo */
+
+@media (max-width: 1155px) {
+    .write h1 {
+        padding: 250px 100px;
+    }
+}
+
+@media (max-width: 768px) {
+    .write h1 {
+        padding: 180px 40px;
+    }
+
+    .logo {
+        width: 60px;
+        left: 15px;
+    }
+
+    .search {
+        right: 20px;
+    }
+
+    .option {
+        right: 50px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .write h1 {
+        padding: 120px 20px;
+        font-size: 1.2rem;
+    }
+
+    .logo {
+        width: 50px;
+        left: 10px;
+    }
+
+    .search {
+        right: 10px;
+    }
+}
+
+/* charles & sévérin */
+
+@media (max-width: 1300px) {
+  .produits {
+  display: grid;
+  grid-template-columns:  1fr;
+  justify-content: space-between;
+}
+
+.foods {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* .produits-contenair {
+  margin: 5%;
+  margin-top: 10px;
+  padding: 5%;
+} */
+
+.food-descript{
+  margin-top: -5px;
+  margin-left: 5px;
+  margin-bottom: 0px;
+}
+
+.food-descript h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.food-descript h3 {
+  font-size: 25px;
+}
+
+.food-descript p {
+  font-size: 20px;
+}
+
+.paragraphe {
+  padding-bottom: 25px;
+}
+
+.produits-contenair h2 {
+  font-size: 15px;
+}
+
+.Drink-img {
+  width: 500px;
+}
+
+.foods img {
+  width: 370px;
+  padding-bottom: 20px;
+}
+}
+
+
+@media (max-width: 800px) {
+
+.xxx {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+}
+
+.produits {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.foods {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+}
+
+.explore {
+  background: #e6007e;
+  color: #fafafa;
+  border: none;
+  width: 250px;
+  height: 50px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.food-descript{
+  margin-top: -5px;
+  margin-bottom: 30px;
+}
+
+.food-descript h3 {
+  font-size: 10px;
+}
+
+.food-descript p {
+  font-size: 13px;
+}
+
+.paragraphe {
+  padding-bottom: 20px;
+}
+
+.produits-contenair h2 {
+  font-size: 15px;
+}
+
+.Drink-img {
+  width: 450px;
+  padding-left: -10px;
+}
+
+.foods img {
+  width: 300px;
+}
+}
+
+@media (max-width: 490px) {
+  .produits {
+    margin: auto;
+  }
+
+  .produits section .jus img {
+      width: 360px;
+  }
+
+  aside {
+    justify-content: center;
+    margin: auto;
+  }
+  
+  aside img {
+    width: 250px;
+  }
+
+  .foods {
+    display: block;
+  }
+}
+
+/* benedicte */
+
+@media (max-width :763px) {
+    .message { font-size: 15px;}
+}
+
+@media (max-width : 315px) {
+    .message {font-size: 10px;}
+}
+@media (max-width : 200px) {
+    .message {font-size: 5px;}
+}
+
+/* eric */
+
+@media (max-width: 580px) {
+    .write button {
+        width: 90px;
+        height: 38px;
+    }
+    #email {
+        width: 230px;
+        height: 38px;
+    }
+}
