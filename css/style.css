@@ -553,16 +553,16 @@ aside {
 
 @media (max-width: 490px) {
   .produits {
-    margin: auto;
+    margin: 0;
   }
 
   .produits section .jus img {
-    width: 360px;
+    width: 320px;
   }
 
   aside {
     justify-content: center;
-    margin: auto;
+    margin: 0;
   }
 
   aside img {
