@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -13,13 +13,13 @@ body {
 .container {
   width: 100%;
   height: 100%;
-    
+
 }
 
 .gradient {
   width: 100%;
   height: 708px;
-  background-image: linear-gradient(to right,#1d1d1d ,#e6007e);
+  background-image: linear-gradient(to right, #1d1d1d, #e6007e);
   opacity: 0.8;
   position: absolute;
 }
@@ -30,7 +30,7 @@ body {
   object-fit: cover;
 }
 
-.banner{
+.banner {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -51,8 +51,8 @@ body {
 
 .write h1 {
   color: #FFF;
-  padding: 350px ;
-  top: -25px ;
+  padding: 350px;
+  top: -25px;
   position: absolute;
   text-align: center;
 }
@@ -90,12 +90,13 @@ body {
   justify-content: right;
   align-items: end;
 }
+
 /*Travrail zozo*/
 
 
 /*Travail de diane*/
 
-.trending{
+.trending {
   margin-top: 50px;
 }
 
@@ -224,7 +225,7 @@ body {
 }
 
 
-.local{
+.local {
   display: grid;
   grid-template-columns: 1fr 3fr;
   align-items: baseline;
@@ -235,10 +236,10 @@ body {
   background-color: #1f1f1f;
   border: 1px solid transparent;
   padding: 1px;
-} 
+}
 
 
-.food-descript{
+.food-descript {
   margin-top: -5px;
   margin-left: 15px;
   margin-bottom: 40px;
@@ -249,7 +250,7 @@ body {
   padding: 0;
 }
 
-aside{
+aside {
   margin: 0;
   margin-left: -30px;
 }
@@ -262,8 +263,8 @@ aside{
 
 /* Travail benedicte*/
 .message {
-  background-image:url(../images/pain.jpg) ;
-  height: 300px;  
+  background-image: url(../images/pain.jpg);
+  height: 300px;
   width: 100%;
   align-items: center;
   text-align: center;
@@ -277,14 +278,14 @@ aside{
 
 
 
-.button{
+.button {
   color: white;
-  font-size:15px ;
+  font-size: 15px;
   padding: 15px;
-  background-color:  #e6007e;
-  border-radius:5px ;
+  background-color: #e6007e;
+  border-radius: 5px;
   width: 250px;
-  height:50px;
+  height: 50px;
   justify-content: center;
   border: none;
   text-align: center;
@@ -387,225 +388,183 @@ aside{
 
 /* travail eric*/
 
-<<<<<<< HEAD
 /* 🔁 Ajouts pour le responsive : */
 /* zozo */
 
 @media (max-width: 1155px) {
-    .write h1 {
-        padding: 250px 100px;
-    }
-=======
-
-/* 🔁 Ajouts pour le responsive : */
-/* zozo */
-
-@media (max-width: 1024px) {
-    .write h1 {
-        padding: 250px 100px;
-    }
-
-    .logo {
-        width: 80px;
-        left: 20px;
-    }
-
-    .option {
-        right: 60px;
-    }
->>>>>>> 639ead07d6bb6769da88063da8a16bbdc423137b
+  .write h1 {
+    padding: 250px 100px;
+  }
 }
 
 @media (max-width: 768px) {
-    .write h1 {
-        padding: 180px 40px;
-    }
+  .write h1 {
+    padding: 180px 40px;
+  }
 
-    .logo {
-        width: 60px;
-        left: 15px;
-    }
+  .logo {
+    width: 60px;
+    left: 15px;
+  }
 
-    .search {
-        right: 20px;
-    }
+  .search {
+    right: 20px;
+  }
 
-    .option {
-        right: 50px;
-    }
+  .option {
+    right: 50px;
+  }
 }
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 639ead07d6bb6769da88063da8a16bbdc423137b
 @media (max-width: 480px) {
-    .write h1 {
-        padding: 120px 20px;
-        font-size: 1.2rem;
-    }
+  .write h1 {
+    padding: 120px 20px;
+    font-size: 1.2rem;
+  }
 
-    .logo {
-        width: 50px;
-        left: 10px;
-    }
+  .logo {
+    width: 50px;
+    left: 10px;
+  }
 
-    .search {
-        right: 10px;
-    }
-<<<<<<< HEAD
-=======
-
-    .option {
-        top: auto;
-        bottom: 20px;
-        right: 10px;
-        flex-direction: column;
-        align-items: flex-end;
-    }
-
-    .stylesection {
-        font-size: 0.9rem;
-    }
->>>>>>> 639ead07d6bb6769da88063da8a16bbdc423137b
+  .search {
+    right: 10px;
+  }
 }
 
 /* charles & sévérin */
 
 @media (max-width: 1300px) {
   .produits {
-  display: grid;
-  grid-template-columns:  1fr;
-  justify-content: space-between;
-}
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: space-between;
+  }
 
-.foods {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
+  .foods {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 
-/* .produits-contenair {
+  /* .produits-contenair {
   margin: 5%;
   margin-top: 10px;
   padding: 5%;
 } */
 
-.food-descript{
-  margin-top: -5px;
-  margin-left: 5px;
-  margin-bottom: 0px;
+  .food-descript {
+    margin-top: -5px;
+    margin-left: 5px;
+    margin-bottom: 0px;
+  }
+
+  .food-descript h3 {
+    margin: 0;
+    padding: 0;
+  }
+
+  .food-descript h3 {
+    font-size: 25px;
+  }
+
+  .food-descript p {
+    font-size: 20px;
+  }
+
+  .paragraphe {
+    padding-bottom: 25px;
+  }
+
+  .produits-contenair h2 {
+    font-size: 15px;
+  }
+
+  .Drink-img {
+    width: 500px;
+  }
+
+  .foods img {
+    width: 370px;
+    padding-bottom: 20px;
+  }
 }
 
-.food-descript h3 {
-  margin: 0;
-  padding: 0;
-}
 
-.food-descript h3 {
-  font-size: 25px;
-}
-
-.food-descript p {
-  font-size: 20px;
-}
-
-.paragraphe {
-  padding-bottom: 25px;
-}
-
-.produits-contenair h2 {
-  font-size: 15px;
-}
-
-.Drink-img {
-  width: 500px;
-}
-
-.foods img {
-  width: 370px;
-  padding-bottom: 20px;
-}
-}
-
-<<<<<<< HEAD
-
-=======
->>>>>>> 639ead07d6bb6769da88063da8a16bbdc423137b
 @media (max-width: 800px) {
 
-.xxx {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  width: 100%;
+  .xxx {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+  }
+
+  .produits {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .foods {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+  }
+
+  .explore {
+    background: #e6007e;
+    color: #fafafa;
+    border: none;
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 15px;
+  }
+
+  .food-descript {
+    margin-top: -5px;
+    margin-bottom: 30px;
+  }
+
+  .food-descript h3 {
+    font-size: 10px;
+  }
+
+  .food-descript p {
+    font-size: 13px;
+  }
+
+  .paragraphe {
+    padding-bottom: 20px;
+  }
+
+  .produits-contenair h2 {
+    font-size: 15px;
+  }
+
+  .Drink-img {
+    width: 450px;
+    padding-left: -10px;
+  }
+
+  .foods img {
+    width: 300px;
+  }
 }
 
-.produits {
-  display: grid;
-  grid-template-columns: 1fr;
-}
-
-.foods {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  width: 100%;
-}
-
-.explore {
-  background: #e6007e;
-  color: #fafafa;
-  border: none;
-  width: 250px;
-  height: 50px;
-  border-radius: 5px;
-  margin-top: 15px;
-}
-
-.food-descript{
-  margin-top: -5px;
-  margin-bottom: 30px;
-}
-
-.food-descript h3 {
-  font-size: 10px;
-}
-
-.food-descript p {
-  font-size: 13px;
-}
-
-.paragraphe {
-  padding-bottom: 20px;
-}
-
-.produits-contenair h2 {
-  font-size: 15px;
-}
-
-.Drink-img {
-  width: 450px;
-  padding-left: -10px;
-}
-
-.foods img {
-  width: 300px;
-}
-}
-
-<<<<<<< HEAD
 @media (max-width: 490px) {
   .produits {
     margin: auto;
   }
 
   .produits section .jus img {
-      width: 360px;
+    width: 360px;
   }
 
   aside {
     justify-content: center;
     margin: auto;
   }
-  
+
   aside img {
     width: 250px;
   }
@@ -615,34 +574,36 @@ aside{
   }
 }
 
-=======
->>>>>>> 639ead07d6bb6769da88063da8a16bbdc423137b
 /* benedicte */
 
 @media (max-width :763px) {
-    .message { font-size: 15px;}
+  .message {
+    font-size: 15px;
+  }
 }
 
 @media (max-width : 315px) {
-    .message {font-size: 10px;}
+  .message {
+    font-size: 10px;
+  }
 }
+
 @media (max-width : 200px) {
-    .message {font-size: 5px;}
+  .message {
+    font-size: 5px;
+  }
 }
 
 /* eric */
 
 @media (max-width: 580px) {
-    .write button {
-        width: 90px;
-        height: 38px;
-    }
-    #email {
-        width: 230px;
-        height: 38px;
-    }
-<<<<<<< HEAD
+  .write button {
+    width: 90px;
+    height: 38px;
+  }
+
+  #email {
+    width: 230px;
+    height: 38px;
+  }
 }
-=======
-}
->>>>>>> 639ead07d6bb6769da88063da8a16bbdc423137b
